@@ -5,7 +5,7 @@ function Workshops() {
     <section id="colaboracion" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-semibold text-darkTeal mb-4">Cómo podemos trabajar juntos</h2>
+          <h2 className="text-4xl font-semibold text-gray-800 mb-4">Cómo podemos trabajar juntos</h2>
           <p className="text-xl text-gray-600">Elige la opción que mejor se adapte a tus necesidades</p>
         </div>
 
@@ -16,7 +16,7 @@ function Workshops() {
               Sesiones individuales
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-semibold mb-4">Sesiones individuales</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-gray-700">Sesiones individuales</h3>
               <p className="text-gray-600 mb-6">
                 Sesiones personalizadas one-to-one donde trabajamos específicamente en tus objetivos y necesidades, con un plan adaptado exclusivamente para ti.
               </p>
@@ -32,7 +32,7 @@ function Workshops() {
               Programas personalizados
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-semibold mb-4">Programas personalizados</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-gray-700">Programas personalizados</h3>
               <p className="text-gray-600 mb-6">
                 Programas completos con seguimiento continuo durante varias semanas, diseñados para lograr transformaciones profundas y resultados duraderos.
               </p>
@@ -48,7 +48,7 @@ function Workshops() {
               Talleres grupales
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-semibold mb-4">Talleres grupales</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-gray-700">Talleres grupales</h3>
               <p className="text-gray-600 mb-6">
                 Experiencias en grupo donde compartir y aprender colectivamente, desarrollando habilidades específicas en un ambiente colaborativo y de apoyo mutuo.
               </p>

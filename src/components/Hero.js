@@ -8,51 +8,22 @@ function Hero() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 md:pr-12 mb-10 md:mb-0 text-left">
-            <h1 className="heading text-left" style={{ 
-              fontSize: '3rem', 
-              fontFamily: 'var(--heading-font)', 
-              color: 'var(--teal)', 
-              fontWeight: 700,
-              marginBottom: '1.5rem' 
-            }}>
+            <h1 className="text-left text-4xl font-bold text-gray-800 mb-6">
               Desbloquea tu potencial y diseña la vida que quieres.
             </h1>
-            <h3 style={{ 
-              fontFamily: 'var(--subheading-font)', 
-              color: 'var(--dark-sage)',
-              fontWeight: 400,
-              marginBottom: '2rem',
-              fontSize: '1.125rem',
-              lineHeight: '1.6'
-            }}>
+            <h3 className="text-gray-600 text-lg mb-8 leading-relaxed">
               Coaching y mentoring para crecimiento personal y profesional. 
               Te acompaño a transformar bloqueos en oportunidades con herramientas 
               prácticas y acompañamiento estratégico.
             </h3>
             
-            <button style={{ 
-              backgroundColor: 'var(--teal)',
-              color: 'white',
-              borderRadius: '4px',
-              padding: '0.75rem 1.5rem',
-              fontFamily: 'var(--subheading-font)',
-              textTransform: 'uppercase',
-              letterSpacing: '1px',
-              boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-              transition: 'background-color 0.3s ease'
-            }}
-            className="hover:bg-[var(--dark-sage)]">
+            <button className="bg-teal hover:bg-darkTeal text-white font-medium py-3 px-6 rounded-lg transition duration-300 uppercase tracking-wide">
               Reserva tu primera sesión
             </button>
           </div>
           
           <div className="w-full md:w-1/2">
-            <div style={{
-              borderRadius: '10px',
-              overflow: 'hidden',
-              boxShadow: '0 10px 25px rgba(0,0,0,0.1)',
-              position: 'relative'
-            }}>
+            <div className="rounded-lg overflow-hidden shadow-lg relative">
               <video
                 className="w-full h-auto block"
                 autoPlay

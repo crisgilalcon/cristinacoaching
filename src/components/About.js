@@ -14,7 +14,7 @@ function About() {
           </div>
           
           <div className="w-full md:w-6/12">
-            <h2 className="text-4xl font-semibold mb-6 text-darkTeal">Conóceme mejor</h2>
+            <h2 className="text-4xl font-semibold mb-6 text-gray-800">Conóceme mejor</h2>
             
             <div>
               <p className="text-gray-600 mb-6">

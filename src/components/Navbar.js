@@ -31,9 +31,8 @@ function Navbar() {
           </div>
           
           {/* CTA Button */}
-          <div className="hidden md:block">
+          <div className="hidden md:block bg-teal">
             <button style={{ 
-              backgroundColor: 'var(--teal)',
               color: 'white',
               borderRadius: '4px',
               padding: '0.75rem 1.5rem',
