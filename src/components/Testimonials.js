@@ -30,7 +30,7 @@ function Testimonials() {
   };
 
   return (
-    <section id="testimonios" className="py-20 bg-white">
+    <section id="testimonios" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-semibold text-darkTeal mb-4">Testimonios destacados</h2>

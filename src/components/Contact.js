@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section id="contacto" className="py-20 bg-white">
+    <section id="contacto" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row md:gap-12">
           <div className="w-full md:w-5/12 mb-12 md:mb-0">
@@ -17,21 +17,21 @@ function Contact() {
               
               <div className="mb-8">
                 <div className="flex items-center mb-4">
-                  <span className="text-gold mr-4 text-xl">
+                  <span className="text-[#8ea6aa] mr-4 text-xl">
                     <i className="fas fa-envelope"></i>
                   </span>
                   <span className="text-gray-700">info@cristinacoaching.com</span>
                 </div>
                 
                 <div className="flex items-center mb-4">
-                  <span className="text-gold mr-4 text-xl">
+                  <span className="text-[#8ea6aa] mr-4 text-xl">
                     <i className="fas fa-phone"></i>
                   </span>
                   <span className="text-gray-700">+34 600 000 000</span>
                 </div>
                 
                 <div className="flex items-center mb-4">
-                  <span className="text-gold mr-4 text-xl">
+                  <span className="text-[#8ea6aa] mr-4 text-xl">
                     <i className="fas fa-map-marker-alt"></i>
                   </span>
                   <span className="text-gray-700">Madrid, España (Sesiones presenciales y online)</span>

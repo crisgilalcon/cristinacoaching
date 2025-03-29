@@ -2,7 +2,7 @@ import React from 'react';
 
 function Workshops() {
   return (
-    <section id="colaboracion" className="py-20 bg-gray-50">
+    <section id="colaboracion" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-semibold text-gray-800 mb-4">Cómo podemos trabajar juntos</h2>
