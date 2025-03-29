@@ -1,0 +1,282 @@
+/* General Component Styles */
+
+/* Hero Section */
+.hero-image {
+  position: relative;
+}
+
+.gold-accent {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  height: 3px;
+  background-color: var(--teal);
+  border-radius: 3px;
+}
+
+/* Service Cards */
+.service-card {
+  height: 100%;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 5px 15px rgba(142, 166, 170, 0.15);
+  background: linear-gradient(to bottom, var(--mint) 0%, var(--off-white) 100%);
+  border-top: 3px solid var(--teal);
+}
+
+.service-card:hover {
+  box-shadow: 0 8px 20px rgba(142, 166, 170, 0.25);
+}
+
+.service-card .card-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Workshop Cards */
+.workshop-card {
+  height: 100%;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 5px 15px rgba(142, 166, 170, 0.15);
+  background-color: var(--off-white);
+  border-top: 3px solid var(--old-gold);
+}
+
+.workshop-card:hover {
+  box-shadow: 0 8px 20px rgba(142, 166, 170, 0.25);
+}
+
+.workshop-card .card-content {
+  padding: 1.5rem;
+}
+
+.workshop-image-placeholder {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.workshop-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Method Steps */
+.method-step {
+  background: linear-gradient(to bottom, var(--mint) 0%, var(--off-white) 100%);
+  border-radius: 10px;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(142, 166, 170, 0.15);
+  position: relative;
+  transition: all 0.3s ease;
+  border-top: 3px solid var(--teal);
+}
+
+.method-step:hover {
+  box-shadow: 0 8px 20px rgba(142, 166, 170, 0.25);
+}
+
+.method-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--teal);
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+  height: 100%;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 5px 15px rgba(142, 166, 170, 0.15);
+  padding: 1rem;
+  background-color: var(--off-white);
+  border-top: 3px solid var(--sand);
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 8px 20px rgba(142, 166, 170, 0.25);
+}
+
+.testimonial-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--mint);
+  margin: 0 auto;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 1rem;
+}
+
+/* Carousel Navigation */
+.carousel-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.carousel-button {
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  background-color: var(--mint);
+  border: none;
+  color: var(--teal);
+}
+
+.carousel-button:hover {
+  background-color: var(--teal);
+  color: white;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--light-teal);
+  margin: 0 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.carousel-dot.active {
+  background-color: var(--teal);
+}
+
+/* CTA Section */
+.has-background-primary {
+  background-color: var(--teal) !important;
+}
+
+.button-cta {
+  background-color: var(--dark-sage);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.button-cta:hover {
+  background-color: #848d85;
+  transform: translateY(-3px);
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar-item {
+  font-family: var(--subheading-font);
+  color: var(--text-color);
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+
+/* Footer Styles */
+.footer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+footer ul li {
+  margin-bottom: 0.75rem;
+}
+
+footer a {
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--teal) !important;
+}
+
+/* Contact Form Styles */
+.field {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  color: var(--dark-sage);
+  font-weight: 500;
+}
+
+.input, .textarea {
+  border: 1px solid var(--light-teal);
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus, .textarea:focus {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 2px rgba(142, 166, 170, 0.25);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-burger {
+    color: var(--teal);
+  }
+  
+  .navbar-menu.is-active {
+    box-shadow: 0 8px 16px rgba(10,10,10,.1);
+  }
+  
+  .navbar-item {
+    text-align: center;
+  }
+  
+  .section {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 2rem;
+  }
+  
+  .accent-text {
+    font-size: 30px !important;
+  }
+  
+  .buttons {
+    flex-direction: column;
+  }
+  
+  .button-primary, .button-secondary {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 0.75rem;
+  }
+} 

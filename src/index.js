@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bulma/css/bulma.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// Add Font Awesome
+const script = document.createElement('script');
+script.src = 'https://kit.fontawesome.com/a076d05399.js';
+script.crossOrigin = 'anonymous';
+document.head.appendChild(script);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
