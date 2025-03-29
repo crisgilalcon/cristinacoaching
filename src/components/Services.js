@@ -1,60 +1,46 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserFriends, faKey, faTasks } from '@fortawesome/free-solid-svg-icons';
 
 function Services() {
   return (
-    <section id="servicios" className="section has-background-light">
-      <div className="container">
-        <div className="has-text-centered mb-6">
-          <h2 className="title is-2">Cómo puedo ayudarte</h2>
-          <p className="subtitle mt-3">Soluciones personalizadas para tu crecimiento personal y profesional</p>
+    <section id="servicios" className="py-20 bg-gray-50">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-semibold text-darkTeal mb-4">Cómo puedo ayudarte</h2>
+          <p className="text-xl text-gray-600">Soluciones personalizadas para tu crecimiento personal y profesional</p>
         </div>
 
-        <div className="columns is-multiline">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Service 1 */}
-          <div className="column is-4">
-            <div className="card service-card">
-              <div className="card-content">
-                <div className="service-icon" style={{ color: 'var(--teal)', fontSize: '48px', marginBottom: '15px' }}>
-                  <FontAwesomeIcon icon={faUserFriends} />
-                </div>
-                <h3 className="title is-4">Acompañamiento personalizado</h3>
-                <p className="mt-3">
-                  Sesiones individuales adaptadas a tus necesidades específicas para ayudarte a superar obstáculos y avanzar hacia tus metas.
-                </p>
-              </div>
+          <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition duration-300">
+            <div className="text-teal text-5xl mb-6">
+              <i className="fas fa-user-friends"></i>
             </div>
+            <h3 className="text-2xl font-semibold mb-4">Acompañamiento personalizado</h3>
+            <p className="text-gray-600">
+              Sesiones individuales adaptadas a tus necesidades específicas para ayudarte a superar obstáculos y avanzar hacia tus metas.
+            </p>
           </div>
 
           {/* Service 2 */}
-          <div className="column is-4">
-            <div className="card service-card">
-              <div className="card-content">
-                <div className="service-icon" style={{ color: 'var(--teal)', fontSize: '48px', marginBottom: '15px' }}>
-                  <FontAwesomeIcon icon={faKey} />
-                </div>
-                <h3 className="title is-4">Estrategias para desbloquear tu potencial</h3>
-                <p className="mt-3">
-                  Herramientas prácticas y técnicas efectivas que te permitirán identificar y superar limitaciones para alcanzar tu máximo potencial.
-                </p>
-              </div>
+          <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition duration-300">
+            <div className="text-teal text-5xl mb-6">
+              <i className="fas fa-key"></i>
             </div>
+            <h3 className="text-2xl font-semibold mb-4">Estrategias para desbloquear tu potencial</h3>
+            <p className="text-gray-600">
+              Herramientas prácticas y técnicas efectivas que te permitirán identificar y superar limitaciones para alcanzar tu máximo potencial.
+            </p>
           </div>
 
           {/* Service 3 */}
-          <div className="column is-4">
-            <div className="card service-card">
-              <div className="card-content">
-                <div className="service-icon" style={{ color: 'var(--teal)', fontSize: '48px', marginBottom: '15px' }}>
-                  <FontAwesomeIcon icon={faTasks} />
-                </div>
-                <h3 className="title is-4">Sesiones prácticas y efectivas</h3>
-                <p className="mt-3">
-                  Encuentros enfocados en resultados concretos, con ejercicios aplicables a tu día a día y seguimiento continuo para asegurar tu progreso.
-                </p>
-              </div>
+          <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition duration-300">
+            <div className="text-teal text-5xl mb-6">
+              <i className="fas fa-tasks"></i>
             </div>
+            <h3 className="text-2xl font-semibold mb-4">Sesiones prácticas y efectivas</h3>
+            <p className="text-gray-600">
+              Encuentros enfocados en resultados concretos, con ejercicios aplicables a tu día a día y seguimiento continuo para asegurar tu progreso.
+            </p>
           </div>
         </div>
       </div>

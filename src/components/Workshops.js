@@ -2,86 +2,59 @@ import React from 'react';
 
 function Workshops() {
   return (
-    <section id="colaboracion" className="section has-background-light">
-      <div className="container">
-        <div className="has-text-centered mb-6">
-          <h2 className="title is-2">Cómo podemos trabajar juntos</h2>
-          <p className="subtitle mt-3">Elige la opción que mejor se adapte a tus necesidades</p>
+    <section id="colaboracion" className="py-20 bg-gray-50">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-semibold text-darkTeal mb-4">Cómo podemos trabajar juntos</h2>
+          <p className="text-xl text-gray-600">Elige la opción que mejor se adapte a tus necesidades</p>
         </div>
 
-        <div className="columns is-multiline">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Option 1 */}
-          <div className="column is-4">
-            <div className="card workshop-card">
-              <div className="card-image">
-                <div className="workshop-image-placeholder" style={{
-                  height: '200px',
-                  backgroundColor: 'var(--mint)',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  color: 'var(--teal)'
-                }}>
-                  Sesiones individuales
-                </div>
-              </div>
-              <div className="card-content">
-                <h3 className="title is-4">Sesiones individuales</h3>
-                <p>
-                  Sesiones personalizadas one-to-one donde trabajamos específicamente en tus objetivos y necesidades, con un plan adaptado exclusivamente para ti.
-                </p>
-                <button className="button-primary mt-4">Más información</button>
-              </div>
+          <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+            <div className="h-48 bg-mintGreen flex justify-center items-center text-teal text-xl font-medium">
+              Sesiones individuales
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold mb-4">Sesiones individuales</h3>
+              <p className="text-gray-600 mb-6">
+                Sesiones personalizadas one-to-one donde trabajamos específicamente en tus objetivos y necesidades, con un plan adaptado exclusivamente para ti.
+              </p>
+              <button className="bg-teal hover:bg-darkTeal text-white font-medium py-2 px-5 rounded-lg transition duration-300">
+                Más información
+              </button>
             </div>
           </div>
 
           {/* Option 2 */}
-          <div className="column is-4">
-            <div className="card workshop-card">
-              <div className="card-image">
-                <div className="workshop-image-placeholder" style={{
-                  height: '200px',
-                  backgroundColor: 'var(--mint)',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  color: 'var(--teal)'
-                }}>
-                  Programas personalizados
-                </div>
-              </div>
-              <div className="card-content">
-                <h3 className="title is-4">Programas personalizados</h3>
-                <p>
-                  Programas completos con seguimiento continuo durante varias semanas, diseñados para lograr transformaciones profundas y resultados duraderos.
-                </p>
-                <button className="button-primary mt-4">Más información</button>
-              </div>
+          <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+            <div className="h-48 bg-mintGreen flex justify-center items-center text-teal text-xl font-medium">
+              Programas personalizados
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold mb-4">Programas personalizados</h3>
+              <p className="text-gray-600 mb-6">
+                Programas completos con seguimiento continuo durante varias semanas, diseñados para lograr transformaciones profundas y resultados duraderos.
+              </p>
+              <button className="bg-teal hover:bg-darkTeal text-white font-medium py-2 px-5 rounded-lg transition duration-300">
+                Más información
+              </button>
             </div>
           </div>
 
           {/* Option 3 */}
-          <div className="column is-4">
-            <div className="card workshop-card">
-              <div className="card-image">
-                <div className="workshop-image-placeholder" style={{
-                  height: '200px',
-                  backgroundColor: 'var(--mint)',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  color: 'var(--teal)'
-                }}>
-                  Talleres grupales
-                </div>
-              </div>
-              <div className="card-content">
-                <h3 className="title is-4">Talleres grupales</h3>
-                <p>
-                  Experiencias en grupo donde compartir y aprender colectivamente, desarrollando habilidades específicas en un ambiente colaborativo y de apoyo mutuo.
-                </p>
-                <button className="button-primary mt-4">Más información</button>
-              </div>
+          <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+            <div className="h-48 bg-mintGreen flex justify-center items-center text-teal text-xl font-medium">
+              Talleres grupales
+            </div>
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold mb-4">Talleres grupales</h3>
+              <p className="text-gray-600 mb-6">
+                Experiencias en grupo donde compartir y aprender colectivamente, desarrollando habilidades específicas en un ambiente colaborativo y de apoyo mutuo.
+              </p>
+              <button className="bg-teal hover:bg-darkTeal text-white font-medium py-2 px-5 rounded-lg transition duration-300">
+                Más información
+              </button>
             </div>
           </div>
         </div>

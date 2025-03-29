@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuoteLeft, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -32,54 +30,52 @@ function Testimonials() {
   };
 
   return (
-    <section id="testimonios" className="section">
-      <div className="container">
-        <div className="has-text-centered mb-6">
-          <h2 className="title is-2">Testimonios destacados</h2>
+    <section id="testimonios" className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-semibold text-darkTeal mb-4">Testimonios destacados</h2>
         </div>
 
-        <div className="testimonial-carousel">
-          <div className="columns is-centered">
-            <div className="column is-8">
-              <div className="card testimonial-card">
-                <div className="card-content has-text-centered">
-                  <div className="testimonial-quote">
-                    <FontAwesomeIcon icon={faQuoteLeft} style={{ color: 'var(--light-teal)', fontSize: '36px' }} />
-                  </div>
-                  <p className="mt-4 mb-5 is-size-5">
-                    {testimonials[currentIndex].quote}
-                  </p>
-                  <div className="testimonial-author has-text-centered">
-                    <h4 className="title is-5 mb-0">{testimonials[currentIndex].name}</h4>
-                    <p className="is-size-7">{testimonials[currentIndex].position}</p>
-                  </div>
-                </div>
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-white rounded-lg shadow-md p-8">
+            <div className="text-center">
+              <div className="text-lightTeal text-4xl mb-6">
+                <i className="fas fa-quote-left"></i>
               </div>
-              
-              <div className="carousel-navigation has-text-centered mt-4">
-                <button 
-                  className="button is-rounded carousel-button" 
-                  onClick={prevTestimonial}
-                  aria-label="Testimonio anterior"
-                >
-                  <FontAwesomeIcon icon={faChevronLeft} />
-                </button>
-                {testimonials.map((_, index) => (
-                  <span 
-                    key={index} 
-                    className={`carousel-dot ${index === currentIndex ? 'active' : ''}`}
-                    onClick={() => setCurrentIndex(index)}
-                  ></span>
-                ))}
-                <button 
-                  className="button is-rounded carousel-button" 
-                  onClick={nextTestimonial}
-                  aria-label="Testimonio siguiente"
-                >
-                  <FontAwesomeIcon icon={faChevronRight} />
-                </button>
+              <p className="text-xl text-gray-700 mb-8">
+                {testimonials[currentIndex].quote}
+              </p>
+              <div className="mt-6">
+                <h4 className="text-xl font-semibold mb-1">{testimonials[currentIndex].name}</h4>
+                <p className="text-gray-600 text-sm">{testimonials[currentIndex].position}</p>
               </div>
             </div>
+          </div>
+          
+          <div className="flex justify-center items-center mt-8">
+            <button 
+              className="w-10 h-10 rounded-full bg-teal text-white flex items-center justify-center mr-4 hover:bg-darkTeal transition duration-300"
+              onClick={prevTestimonial}
+              aria-label="Testimonio anterior"
+            >
+              <i className="fas fa-chevron-left"></i>
+            </button>
+            
+            {testimonials.map((_, index) => (
+              <span 
+                key={index} 
+                className={`w-3 h-3 rounded-full mx-1 cursor-pointer ${index === currentIndex ? 'bg-teal' : 'bg-gray-300'}`}
+                onClick={() => setCurrentIndex(index)}
+              ></span>
+            ))}
+            
+            <button 
+              className="w-10 h-10 rounded-full bg-teal text-white flex items-center justify-center ml-4 hover:bg-darkTeal transition duration-300"
+              onClick={nextTestimonial}
+              aria-label="Testimonio siguiente"
+            >
+              <i className="fas fa-chevron-right"></i>
+            </button>
           </div>
         </div>
       </div>

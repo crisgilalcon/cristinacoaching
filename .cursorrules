@@ -1,1 +1,3 @@
 * DO NOT run npm start after adding code.
+* NEVER use inline-css if tailwind doesn't provide a class, then we must create one.
+* DO NOT attempt to installs package that can be imported through a CDN.

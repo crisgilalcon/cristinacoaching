@@ -1,6 +1,6 @@
 {
-  "short_name": "CristinaCoaching",
-  "name": "CristinaCoaching - Life & Executive Coaching",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#e2ad61",
-  "background_color": "#e8e7e5"
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
