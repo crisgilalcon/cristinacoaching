@@ -2,7 +2,7 @@ import React from 'react';
 
 function Services() {
   return (
-    <section id="servicios" className="py-20 bg-white">
+    <section id="servicios" className="py-20 bg-offWhite">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-semibold text-gray-800 mb-4">Acompañamiento personalizado para tu crecimiento y bienestar.</h2>

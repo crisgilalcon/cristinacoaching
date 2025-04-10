@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <section id="sobre-mi" className="py-20 bg-gray-50">
+    <section id="sobre-mi" className="py-20 bg-offWhite">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="w-full md:w-5/12">
