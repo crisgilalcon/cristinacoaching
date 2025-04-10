@@ -61,7 +61,7 @@ function Hero() {
               prácticas y acompañamiento estratégico
             </h3>
             
-            <div className="bg-mintGreen p-6 rounded-lg shadow-md">
+            <div className="bg-mintGreen p-6 rounded-lg shadow-md hidden">
               <h4 className="text-darkSage font-semibold mb-4">Reserva tu primera sesión</h4>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
