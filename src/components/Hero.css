@@ -1,0 +1,13 @@
+:root {
+  --content-height: auto;
+}
+
+.video-container {
+  height: var(--content-height);
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    height: auto;
+  }
+}

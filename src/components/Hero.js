@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import './Hero.css';
 
 function Hero() {
   const cloudinaryVideoUrl = "https://res.cloudinary.com/dzhv9e639/video/upload/v1743261106/hero_video_rjjcnc.mp4";
@@ -8,6 +9,26 @@ function Hero() {
     fechaHora: '',
     mensaje: ''
   });
+  const contentRef = useRef(null);
+  const videoContainerRef = useRef(null);
+  
+  // Effect to match video height to content height
+  useEffect(() => {
+    const adjustHeight = () => {
+      if (contentRef.current && videoContainerRef.current) {
+        const contentHeight = contentRef.current.offsetHeight;
+        // Update a CSS custom property instead of inline style
+        document.documentElement.style.setProperty('--content-height', `${contentHeight}px`);
+      }
+    };
+    
+    adjustHeight();
+    window.addEventListener('resize', adjustHeight);
+    
+    return () => {
+      window.removeEventListener('resize', adjustHeight);
+    };
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -26,8 +47,8 @@ function Hero() {
   return (
     <section id="inicio" className="pt-24 min-h-screen flex items-center bg-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="w-full md:w-1/2 md:pr-12 mb-10 md:mb-0 text-left">
+        <div className="flex flex-col md:flex-row items-center justify-between">
+          <div ref={contentRef} className="w-full md:w-1/2 md:pr-12 mb-10 md:mb-0 text-left">
             <h1 className="text-left text-4xl font-bold text-gray-800 mb-2 uppercase">
               Desbloquea tu potencial
             </h1>
@@ -104,10 +125,10 @@ function Hero() {
             </div>
           </div>
           
-          <div className="w-full md:w-1/2">
-            <div className="rounded-lg overflow-hidden shadow-lg relative">
+          <div className="w-full md:w-1/2 flex items-center justify-center">
+            <div ref={videoContainerRef} className="video-container rounded-lg overflow-hidden shadow-lg relative w-full">
               <video
-                className="w-full h-auto block"
+                className="w-full h-full object-cover"
                 autoPlay
                 muted
                 loop
