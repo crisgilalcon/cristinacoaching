@@ -6,7 +6,9 @@ function Method() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-semibold text-gray-800 mb-4">Mi método</h2>
-          <p className="text-xl text-teal font-medium mb-4">Un espacio para ti, a tu ritmo.</p>
+          <p className="accent-text text-4xl mb-6 font-bold" style={{ color: 'var(--old-gold)' }}>
+            Un espacio para ti, a tu ritmo
+          </p>
           
           <div className="max-w-3xl mx-auto text-gray-600 space-y-4">
             <p>

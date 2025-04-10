@@ -39,7 +39,9 @@ function WorkTogether() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-semibold mb-3 text-darkSage">¿Qué podemos trabajar juntos?</h2>
-          <h3 className="text-2xl text-teal mb-6">El coaching a tu medida: Tú eliges el camino, yo te acompaño.</h3>
+          <p className="accent-text text-4xl mb-6 font-bold" style={{ color: 'var(--old-gold)' }}>
+            Tú eliges el camino, yo te acompaño
+          </p>
           <p className="text-gray-600 max-w-3xl mx-auto">
             Cada persona es única, por eso diseñamos sesiones personalizadas en función de lo que necesitas. Podemos trabajar juntos en:
           </p>

@@ -52,8 +52,8 @@ function Hero() {
             <h1 className="text-left text-4xl font-bold text-gray-800 mb-2 uppercase">
               Desbloquea tu potencial
             </h1>
-            <p className="text-gray-500 text-2xl mb-6 font-light uppercase">
-              diseña la vida que quieres
+            <p className="accent-text text-4xl mb-6 font-bold" style={{ color: 'var(--old-gold)' }}>
+              Diseña la vida que quieres
             </p>
             <h3 className="text-gray-600 text-lg mb-6 leading-relaxed">
               Coaching y mentoring para crecimiento personal y profesional. 
