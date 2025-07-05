@@ -43,7 +43,7 @@ function Navbar() {
               transition: 'background-color 0.3s ease'
             }}
             className="hover:bg-[var(--dark-sage)]">
-              Reserva tu sesión
+              RESERVA TU SESIÓN GRATIS
             </button>
           </div>
         </div>
@@ -69,7 +69,7 @@ function Navbar() {
               width: '100%'
             }}
             className="hover:bg-[var(--dark-sage)]">
-              Reserva tu sesión
+              RESERVA TU SESIÓN GRATIS
             </button>
           </div>
         </div>
