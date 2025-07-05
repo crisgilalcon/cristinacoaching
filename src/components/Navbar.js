@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <a href="/" className="accent-text" style={{ fontSize: '35px' }}>CristinaCoaching</a>
+          <a href="/" className="accent-text" style={{ fontSize: '35px' }}>Cristina Gil Coaching</a>
           
           {/* Mobile menu button */}
           <button 
@@ -25,6 +25,7 @@ function Navbar() {
               <a href="#inicio" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Inicio</a>
               <a href="#sobre-mi" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Sobre Mí</a>
               <a href="#servicios" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Servicios</a>
+              <a href="#metodo" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Mi Método</a>
               <a href="#testimonios" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Testimonios</a>
               <a href="#contacto" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Contacto</a>
             </div>
@@ -54,6 +55,7 @@ function Navbar() {
             <a href="#inicio" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Inicio</a>
             <a href="#sobre-mi" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Sobre Mí</a>
             <a href="#servicios" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Servicios</a>
+            <a href="#metodo" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Mi Método</a>
             <a href="#testimonios" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Testimonios</a>
             <a href="#contacto" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Contacto</a>
             <button style={{ 
