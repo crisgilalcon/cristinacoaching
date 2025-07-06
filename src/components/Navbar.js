@@ -33,19 +33,21 @@ function Navbar() {
           
           {/* CTA Button */}
           <div className="hidden md:block bg-teal">
-            <button style={{ 
-              color: 'white',
-              borderRadius: '4px',
-              padding: '0.75rem 1.5rem',
-              fontFamily: 'var(--subheading-font)',
-              textTransform: 'uppercase',
-              letterSpacing: '1px',
-              boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-              transition: 'background-color 0.3s ease'
-            }}
-            className="hover:bg-[var(--dark-sage)]">
-              RESERVA TU SESIÓN GRATIS
-            </button>
+            <a href="#contacto">
+              <button style={{ 
+                color: 'white',
+                borderRadius: '4px',
+                padding: '0.75rem 1.5rem',
+                fontFamily: 'var(--subheading-font)',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                transition: 'background-color 0.3s ease'
+              }}
+              className="hover:bg-[var(--dark-sage)]">
+                RESERVA TU SESIÓN GRATIS
+              </button>
+            </a>
           </div>
         </div>
         
@@ -58,21 +60,23 @@ function Navbar() {
             <a href="#metodo" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Mi Método</a>
             <a href="#testimonios" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Testimonios</a>
             <a href="#contacto" className="hover:text-[var(--teal)] transition duration-300" style={{ fontFamily: 'var(--body-font)', color: 'var(--text-color)' }}>Contacto</a>
-            <button style={{ 
-              backgroundColor: 'var(--teal)',
-              color: 'white',
-              borderRadius: '4px',
-              padding: '0.75rem 1.5rem',
-              fontFamily: 'var(--subheading-font)',
-              textTransform: 'uppercase',
-              letterSpacing: '1px',
-              boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-              transition: 'background-color 0.3s ease',
-              width: '100%'
-            }}
-            className="hover:bg-[var(--dark-sage)]">
-              RESERVA TU SESIÓN GRATIS
-            </button>
+            <a href="#contacto">
+              <button style={{ 
+                backgroundColor: 'var(--teal)',
+                color: 'white',
+                borderRadius: '4px',
+                padding: '0.75rem 1.5rem',
+                fontFamily: 'var(--subheading-font)',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                transition: 'background-color 0.3s ease',
+                width: '100%'
+              }}
+              className="hover:bg-[var(--dark-sage)]">
+                RESERVA TU SESIÓN GRATIS
+              </button>
+            </a>
           </div>
         </div>
       </div>
