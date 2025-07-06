@@ -28,8 +28,8 @@ function WorkTogether() {
       icon: "fa-solid fa-lightbulb"
     },
     {
-      title: "Metas y propósito",
-      description: "Encontrar claridad en tus objetivos y diseñar un plan para lograrlos.",
+      title: "Dolor Crónico",
+      description: "Gestión emocional del dolor, estrategias de afrontamiento y mejora del bienestar.",
       icon: "fa-solid fa-compass"
     }
   ];
@@ -43,7 +43,7 @@ function WorkTogether() {
             Tú eliges el camino, yo te acompaño
           </p>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Cada persona es única, por eso diseñamos sesiones personalizadas en función de lo que necesitas. Podemos trabajar juntos en:
+            Cada persona es única, por eso diseñamos sesiones personalizadas en función de lo que necesitas.
           </p>
         </div>
 

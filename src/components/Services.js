@@ -5,13 +5,13 @@ function Services() {
     <section id="servicios" className="py-20 bg-offWhite">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-semibold text-gray-800 mb-4">Acompañamiento personalizado para tu crecimiento y bienestar.</h2>
+          <h2 className="text-4xl font-semibold text-gray-800 mb-4">Acompañamiento personalizado para tu crecimiento y bienestar</h2>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto">
             Cada persona es única, y su proceso de crecimiento también lo es. Por eso, mis sesiones están diseñadas para adaptarse a tus necesidades, ya sea que busques alcanzar una meta personal o profesional, mejorar tu bienestar emocional o recibir orientación profesional. A través del coaching y mentoring, te ofrezco un espacio de confianza para reflexionar, desbloquear obstáculos y tomar acción con claridad y seguridad.
           </p>
         </div>
 
-        <h3 className="text-2xl font-semibold text-center mb-10 text-gray-700">Tipos de acompañamiento que ofrezco:</h3>
+        <h3 className="text-2xl font-semibold text-center mb-10 text-gray-700">Tipos de acompañamiento que ofrezco</h3>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* Coaching Individual */}
@@ -90,7 +90,7 @@ function Services() {
               
               <div className="mt-8 text-center">
                 <a href="#contacto" className="bg-teal hover:bg-darkTeal text-white font-medium py-3 px-6 rounded-lg transition duration-300 inline-block">
-                  Solicita una sesión de mentoring
+                  Reserva tu sesión de mentoring
                 </a>
               </div>
             </div>
@@ -108,8 +108,8 @@ function Services() {
             
             <div className="p-8">
               <div className="mb-6 text-center">
-                <h3 className="text-2xl font-semibold text-gray-800">Taller de Gestión Emocional del Dolor Crónico</h3>
-                <p className="text-lg italic text-gray-700 mt-2">Aprende a vivir mejor con el dolor</p>
+                <h3 className="text-2xl font-semibold text-gray-800">Programa Más Allá del Dolor</h3>
+                <p className="text-lg italic text-gray-700 mt-2">Aprende a vivir sin dolor</p>
               </div>
               
               <div className="space-y-5">
@@ -120,18 +120,18 @@ function Services() {
                 
                 <div>
                   <h4 className="font-medium text-teal mb-2">¿Cómo funciona?</h4>
-                  <p className="text-gray-600">Es un programa estructurado en sesiones grupales, con dinámicas prácticas y técnicas basadas en la psicología del bienestar y la resiliencia.</p>
+                  <p className="text-gray-600">Es un programa grupal estructurado en sesiones, con dinámicas prácticas y técnicas basadas en la neurociencia y psicología del bienestar.</p>
                 </div>
                 
                 <div>
                   <h4 className="font-medium text-teal mb-2">¿Qué aprenderás?</h4>
-                  <p className="text-gray-600">Estrategias para manejar la ansiedad y el miedo al dolor. Reducir el impacto emocional del dolor y reconectar con tu bienestar entendiendo como funciona nuestro cerebro ante el dolor.</p>
+                  <p className="text-gray-600">Estrategias para manejar la ansiedad y el miedo al dolor. Reducir el impacto emocional del dolor y reconectar con tu bienestar entendiendo como funciona nuestro cerebro.</p>
                 </div>
               </div>
               
               <div className="mt-8 text-center">
                 <a href="#contacto" className="bg-teal hover:bg-darkTeal text-white font-medium py-3 px-6 rounded-lg transition duration-300 inline-block">
-                  Descubre el taller
+                  Pide más información
                 </a>
               </div>
             </div>
