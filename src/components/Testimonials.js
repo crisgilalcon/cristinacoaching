@@ -5,19 +5,19 @@ function Testimonials() {
   
   const testimonials = [
     {
-      quote: "Las sesiones con Cristina han sido transformadoras. Su enfoque personalizado me ayudó a desbloquear mi potencial y alcanzar mis metas profesionales.",
-      name: "Ana García",
-      position: "Profesional en desarrollo"
+      quote: "Cristina me ayudó a definir objetivos claros desde el primer día y fuimos trabajando paso a paso hacia el cambio. Terminé las sesiones con herramientas concretas que aplico en mi día a día y sobre todo interiorizando decisiones y conclusiones que me ayudaron a seguir adelante tanto a nivel personal como profesional. Super recomendable!!",
+      name: "L.S",
+      position: ""
     },
     {
-      quote: "El acompañamiento de Cristina me dio las herramientas que necesitaba para superar mis bloqueos. Su metodología práctica marca la diferencia.",
-      name: "Carlos Martínez",
-      position: "Emprendedor"
+      quote: "Hay veces en la vida que las cosas se complican y no sabes muy bien cómo, pero sí sabes que necesitas que te echen un cable. Y Cris es ese cable. Es fácil conectar con ella, y a partir de ahí empieza el trabajo. Serán pasos adelante y pasos atrás, pero un buen día te percatas de que todo está mejor, y otro día de que es hora de finalizar el proceso. Hace falta confiar mucho en alguien para explicarle lo que pocas personas saben de ti. Cris, gracias por tu profesionalidad, por tu saber hacer y en definitiva, por tu ayuda.",
+      name: "I.P",
+      position: ""
     },
     {
-      quote: "Gracias a Cristina he podido transformar mis inseguridades en fortalezas y diseñar un plan de acción efectivo para mis objetivos personales.",
-      name: "Laura Rodríguez",
-      position: "Gerente de proyectos"
+      quote: "Gracias a Cristina he analizado situaciones que daba por normales y no lo eran. Me ha hecho creer en mí y en mi fuerza para afrontar los problemas y dilemas que nos encontramos cada día. Cristina me ha enseñado las herramientas para conseguirlo. Ha sido una suerte contar contigo.",
+      name: "M.M",
+      position: ""
     }
   ];
 
