@@ -20,22 +20,38 @@ function About() {
             
             <div className="text-gray-600 space-y-4">
               <p>
-                Mi nombre es Cristina Gil Alcón, y llevo 17 años trabajando, creando y cambiando la vida de las personas. Mi trayectoria combina la psicología, el desarrollo humano, el arte y el coaching, herramientas con las que he acompañado a cientos de personas en su transformación personal y profesional.
+                Soy Cristina Gil, y desde hace más de 17 años acompaño a personas y equipos a transformar su vida y alcanzar todo su potencial.
+              </p>
+              
+              <p>
+                Mi misión es ayudarte a crecer, a superar tus bloqueos y a descubrir recursos que quizás hoy ni imaginas.
+              </p>
+              
+              <p>
+                He trabajado con perfiles muy diversos, desde directivos y managers que buscaban llevar su liderazgo al siguiente nivel, hasta personas que deseaban incorporar el desarrollo personal a su día a día.
+              </p>
+              
+              <p>
+                Mi enfoque integra la psicología, el coaching, el desarrollo humano y el arte, creando un espacio de confianza donde puedas avanzar a tu ritmo y con sentido.
               </p>
               
               <div className="mt-6">
                 <h3 className="text-xl font-medium text-teal mb-3">Mi formación:</h3>
                 <ul className="list-disc pl-5 space-y-1">
-                  <li>Licenciatura en Psicología de las Organizaciones</li>
-                  <li>Postgrado en Desarrollo de Talento</li>
-                  <li>Seminario Internacional en Desarrollo Organizacional y Consultoría de Procesos</li>
-                  <li>Postgrado en Arte Terapia</li>
-                  <li>Certificación en Executive Coaching por ICF</li>
+                  <li>Licenciatura en Psicología - UAB</li>
+                  <li>Postgrado en Desarrollo de Talento - UB</li>
+                  <li>Desarrollo Organizacional y Consultoría de Procesos - Itamar Rogovsky</li>
+                  <li>Postgrado en Arte Terapia - Metàfora Centro de Estudios</li>
+                  <li>Certificación en Executive Coaching por ICF - EEC</li>
                 </ul>
               </div>
               
               <div className="mt-6 italic border-l-4 border-teal pl-4 py-2">
-                "Hace años me enfrenté a uno de los mayores desafíos de mi vida: el dolor crónico. Fue una experiencia que me transformó y me llevó a desarrollar un enfoque de coaching basado en la comprensión real de los procesos emocionales. Desde entonces, acompaño a personas en su crecimiento personal y profesional, ayudándolas a recuperar su confianza y diseñar estrategias efectivas para avanzar."
+                "Hace años me enfrenté a uno de los mayores retos de mi vida: el dolor crónico. Una experiencia que cambió por completo mi manera de ver y entender el cuerpo, las emociones y la mente. Durante ese proceso descubrí, gracias a la neurociencia, cómo nuestras emociones impactan directamente en el dolor y cómo podemos crear nuevas conexiones neuronales que nos permitan sanar y desarrollar habilidades que nos parecen inalcanzables. Hoy puedo decir que estoy totalmente recuperada. Esta vivencia no solo me transformó personalmente, sino que marcó mi forma de acompañar a otros."
+              </div>
+              
+              <div className="mt-6 italic border-l-4 border-teal pl-4 py-2">
+                "Mi enfoque de coaching integra el conocimiento profundo de la gestión emocional, la resiliencia y el potencial humano para superar límites que a veces creemos inamovibles. Hoy trabajo como coach personal y profesional, ayudando a personas a alcanzar sus objetivos, a fortalecer su liderazgo y a reconectarse con su propósito. Y también acompaño a quienes viven con dolor crónico, sabiendo de primera mano que es posible volver a vivir sin dolor, recuperar la confianza y diseñar un camino de cambio real."
               </div>
               
               <div className="mt-8">

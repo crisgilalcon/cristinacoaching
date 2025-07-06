@@ -49,16 +49,15 @@ function Hero() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div ref={contentRef} className="w-full md:w-1/2 md:pr-12 mb-10 md:mb-0 text-left">
-            <h1 className="text-left text-4xl font-bold text-gray-800 mb-2 uppercase">
+            <h1 className="text-center text-4xl font-bold text-gray-800 mb-2 uppercase">
               Desbloquea tu potencial
             </h1>
-            <p className="accent-text text-4xl mb-6 font-bold" style={{ color: 'var(--old-gold)' }}>
+            <p className="accent-text text-4xl mb-6 font-bold text-center" style={{ color: 'var(--old-gold)' }}>
               Diseña la vida que quieres
             </p>
-            <h3 className="text-gray-600 text-lg mb-6 leading-relaxed">
-              Coaching y mentoring para crecimiento personal y profesional. 
-              Te acompaño a transformar bloqueos en oportunidades con herramientas 
-              prácticas y acompañamiento estratégico
+            <h3 className="text-gray-600 text-lg mb-6 leading-normal text-center">
+              Coaching y Mentoring para crecimiento personal y profesional.<br />
+              Te acompaño a transformar tus bloqueos en oportunidades, con herramientas prácticas y acompañamiento estratégico.
             </h3>
             
             <div className="bg-mintGreen p-6 rounded-lg shadow-md hidden">
