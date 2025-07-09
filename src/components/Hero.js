@@ -47,15 +47,15 @@ function Hero() {
   return (
     <section id="inicio" className="pt-24 min-h-screen flex items-center bg-white">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div ref={contentRef} className="w-full md:w-1/2 md:pr-12 mb-10 md:mb-0 text-left">
-            <h1 className="text-center text-4xl font-bold text-gray-800 mb-2 uppercase">
+        <div className="flex flex-col items-center justify-center min-h-[60vh]">
+          <div ref={contentRef} className="w-full md:w-2/3 lg:w-1/2 text-center mb-10 md:mb-0">
+            <h1 className="text-4xl font-bold text-gray-800 mb-2 uppercase">
               Desbloquea tu potencial
             </h1>
-            <p className="accent-text text-4xl mb-6 font-bold text-center" style={{ color: 'var(--old-gold)' }}>
+            <p className="accent-text text-4xl mb-6 font-bold" style={{ color: 'var(--old-gold)' }}>
               Diseña la vida que quieres
             </p>
-            <h3 className="text-gray-600 text-lg mb-6 leading-normal text-center">
+            <h3 className="text-gray-600 text-lg mb-6 leading-normal">
               Coaching y Mentoring para crecimiento personal y profesional.<br />
               Te acompaño a transformar tus bloqueos en oportunidades, con herramientas prácticas y acompañamiento estratégico.
             </h3>
@@ -125,6 +125,7 @@ function Hero() {
           </div>
           
           <div className="w-full md:w-1/2 flex items-center justify-center">
+            {/* VIDEO HIDDEN TEMPORARILY - Uncomment to restore when ready
             <div ref={videoContainerRef} className="video-container rounded-lg overflow-hidden shadow-lg relative w-full">
               <video
                 className="w-full h-full object-cover"
@@ -137,6 +138,7 @@ function Hero() {
                 Your browser does not support the video tag.
               </video>
             </div>
+            */}
           </div>
         </div>
       </div>
