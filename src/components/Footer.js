@@ -27,7 +27,7 @@ function Footer() {
               <li><a href="#inicio" className="hover:text-white transition duration-300">Inicio</a></li>
               <li><a href="#sobre-mi" className="hover:text-white transition duration-300">Sobre Mí</a></li>
               <li><a href="#servicios" className="hover:text-white transition duration-300">Servicios</a></li>
-              <li><a href="#method" className="hover:text-white transition duration-300">Mi Método</a></li>
+              <li><a href="#metodo" className="hover:text-white transition duration-300">Mi Método</a></li>
               <li><a href="#testimonios" className="hover:text-white transition duration-300">Testimonios</a></li>
               <li><a href="#contacto" className="hover:text-white transition duration-300">Contacto</a></li>
             </ul>
