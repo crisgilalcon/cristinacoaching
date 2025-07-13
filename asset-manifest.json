@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/cristinacoaching/static/css/main.23a648b3.css",
-    "main.js": "/cristinacoaching/static/js/main.433fb83b.js",
-    "index.html": "/cristinacoaching/index.html",
-    "main.23a648b3.css.map": "/cristinacoaching/static/css/main.23a648b3.css.map",
-    "main.433fb83b.js.map": "/cristinacoaching/static/js/main.433fb83b.js.map"
+    "main.css": "/static/css/main.23a648b3.css",
+    "main.js": "/static/js/main.433fb83b.js",
+    "index.html": "/index.html",
+    "main.23a648b3.css.map": "/static/css/main.23a648b3.css.map",
+    "main.433fb83b.js.map": "/static/js/main.433fb83b.js.map"
   },
   "entrypoints": [
     "static/css/main.23a648b3.css",
