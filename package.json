@@ -2,6 +2,7 @@
   "name": "cristinacoaching",
   "version": "1.0.0",
   "main": "tailwind.config.js",
+  "homepage": "https://cristinacoaching.github.io/cristinacoaching",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
