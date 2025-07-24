@@ -16,22 +16,24 @@ function Contact() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('');
-    emailjs.send(
-      'service_9uoc429',
-      'template_947x64j',
-      formData,
-      'nnPDNIdydbo_GPyr9'
-    )
-    .then(() => {
+    try {
+      // Ejecutar reCAPTCHA v3
+      const recaptchaToken = await window.grecaptcha.execute('6LeGKI4rAAAAAITGXYtm_N8tICYSH66VtmJjIKsx', { action: 'submit' });
+      const dataWithToken = { ...formData, recaptchaToken };
+      await emailjs.send(
+        'service_9uoc429',
+        'template_947x64j',
+        dataWithToken,
+        'nnPDNIdydbo_GPyr9'
+      );
       setStatus('success');
       setFormData({ nombre: '', email: '', telefono: '', asunto: '', mensaje: '' });
-    })
-    .catch(() => {
+    } catch (error) {
       setStatus('error');
-    });
+    }
   };
 
   return (
