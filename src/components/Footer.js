@@ -12,10 +12,10 @@ function Footer() {
               personales y profesionales, mejorando tu calidad de vida.
             </p>
             <div className="flex space-x-4">
-              <a href="https://instagram.com" className="text-white text-2xl hover:text-white transition duration-300">
+              <a href="https://www.instagram.com/cristinagilcoaching/?igsh=YnJrMmlvZTU5c2c1&utm_source=qr#" className="text-white text-2xl hover:text-white transition duration-300">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://linkedin.com" className="text-white text-2xl hover:text-white transition duration-300">
+              <a href="https://www.linkedin.com/in/cristinagilalcon/" className="text-white text-2xl hover:text-white transition duration-300">
                 <i className="fab fa-linkedin"></i>
               </a>
             </div>
